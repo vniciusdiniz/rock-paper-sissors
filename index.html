@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
     <title>Rock Paper Sissors</title>
 </head>
 <body>
-   
-    <script src="./index.js"></script>
+    <div class="container">
+        <div class="playerOptions">
+            <button id="rock">ROCK</button>
+            <button id="paper">PAPER</button>
+            <button id="scissors">SCISSORS</button>
+        </div>
+        <div class="versus">
+            <img id="playerImg" src="./images/rock.png" alt="Rock">
+            <span> You vs Computer </span> 
+            <img id="computerImg" src="./images/paper.png" alt="Paper">
+        </div>
+        <div id="result">
+
+        </div>
+        <div class="score">
+            <h3>SCORE</h3>
+            <h5>
+                YOU: <span id="playerScore"></span>
+            </h5>
+            <h5>
+                COMPUTER: <span id="computerScore"></span>
+            </h5>
+        </div>
+    </div>
+    
 </body>
 </html>
+
+<!-- 
+Display the running score, and announce a winner of the game once 
+one player reaches 5 points -->

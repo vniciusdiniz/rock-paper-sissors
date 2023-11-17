@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    justify-content: center;
+    align-items: center;
+    background-color: darkorange;
+    width: 555px;
+    height: 555px;
+}
+
+.playerOptions{
+    display: flex;
+    gap: 16px;
+}
+
+button{
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.versus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+img{
+    width: 111px;
+    height: 111px;
+}
+
+.score{
+    width: 222px;
+
+    text-align: center;
+    border: 2px solid black;
+}
+
+h4{
+    color: purple;
+    font-size: 24px;
+}
